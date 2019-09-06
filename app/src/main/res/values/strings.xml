@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">awareUp</string>
+    <string name="create_new_account">yeni hesap oluştur</string>
+    <string name="oturum_ac">oturum aç</string>
+    <string name="oturum_ac_buyuk">OTURUM AÇ</string>
+    <string name="oturum_ac_b">Oturum Aç</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+</resources>

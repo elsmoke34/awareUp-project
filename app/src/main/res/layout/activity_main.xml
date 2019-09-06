@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/first_page"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/oturumacbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/oturum_ac"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/yenihesapbtn"
+        android:layout_marginBottom="90dp"
+        />
+
+    <Button
+        android:id="@+id/yenihesapbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_new_account"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="327dp"
+        android:layout_height="278dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="25dp"
+        app:srcCompat="@drawable/logo" />
+
+
+
+</RelativeLayout>
