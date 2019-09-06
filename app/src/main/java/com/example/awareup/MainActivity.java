@@ -18,11 +18,17 @@ public class MainActivity extends AppCompatActivity
 
     private Button yenihesapbtn,oturumacbtn ;
 
+    //yorumekle
+
     public void init()
     {
         oturumacbtn = (Button) findViewById(R.id.oturumacbtn);
         yenihesapbtn = (Button) findViewById(R.id.yenihesapbtn);
 
+    }
+
+    public  void  denemeyapiyom(){
+        
     }
 
     @Override
