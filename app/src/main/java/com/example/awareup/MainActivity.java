@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity
 
     private Button yenihesapbtn,oturumacbtn ;
 
-    //yorumekle
 
     public void init()
     {
@@ -27,9 +26,8 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    public  void  denemeyapiyom(){
-        
-    }
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
