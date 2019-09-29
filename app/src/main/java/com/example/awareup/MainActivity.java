@@ -27,8 +27,6 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -44,6 +42,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent intentLogin = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intentLogin);
+                finish();
             }
         });
 
@@ -52,6 +51,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent intentRegister = new Intent(MainActivity.this, RegisterActivity.class);
                 startActivity(intentRegister);
+                finish();
             }
         });
 

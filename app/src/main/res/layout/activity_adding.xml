@@ -4,22 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/profil_background"
-    android:padding="20dp"
-    tools:context=".ProfilActivity">
+    android:background="@drawable/ekleme_background"
+    tools:context=".AddingActivity">
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/etkinlik_background" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
-        android:layout_alignBottom="@id/imageView8">
+        >
 
         <ImageView
             android:id="@+id/home_btn"
@@ -27,91 +21,95 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:baselineAlignBottom="true"
-            android:onClick="clickToMainFromProfil"
+            android:onClick="clickToMainFromAdding"
             app:srcCompat="@drawable/home" />
 
         <ImageView
             android:id="@+id/add_btn"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:layout_weight="1"
             android:baselineAlignBottom="true"
-            android:onClick="clickToAddingFromProfil"
+            android:layout_weight="1"
             app:srcCompat="@drawable/plus" />
 
         <ImageView
             android:id="@+id/profil_btn"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:layout_weight="1"
             android:baselineAlignBottom="true"
+            android:layout_weight="1"
+            android:onClick="clickToProfilFromAdding"
             app:srcCompat="@drawable/person" />
     </LinearLayout>
 
+
+
+
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imageView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/shared_logo" />
+        app:srcCompat="@drawable/ekleme_bar" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seffaf_ekran" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/kamera_konum" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon_adam" />
 
     <TextView
-        android:id="@+id/username_profilde"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/username"
-        android:textColor="@android:color/white"
+        android:text="@string/add_photo"
         android:textSize="20sp"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="110dp"/>
+        android:textColor="@android:color/white"
+        android:layout_marginTop="285dp"
+        android:layout_marginStart="70dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/etkinliklerim"
+        android:text="@string/add_location"
         android:textColor="@android:color/white"
         android:textSize="20sp"
-        android:layout_marginStart="205dp"
-        android:layout_marginTop="215dp" />
+        android:layout_marginTop="285dp"
+        android:layout_marginStart="250dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/shared_ones"
+        android:text="@string/comment_elsmoke"
         android:textColor="@android:color/white"
         android:textSize="20sp"
-        android:layout_marginTop="200dp"
-        android:layout_marginStart="60dp"/>
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="120dp"/>
 
-
-
-
-    <ImageView
-        android:id="@+id/imageView11"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/etkinlikler_logo" />
-
-
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/fake_pp" />
-
-
+        android:text="@string/new_post"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="120dp"/>
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/imageView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/location" />
-
-    <ImageView
-        android:id="@+id/pp_edit_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/profili_duzenle" />
+        app:srcCompat="@drawable/btn_kategori" />
 
 
 </RelativeLayout>

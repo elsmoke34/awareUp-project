@@ -8,4 +8,13 @@
     <string name="password">Şifre</string>
     <string name="create_new_account_b">Yeni Hesap Oluştur</string>
     <string name="email">Email</string>
+    <string name="shared_ones">paylaşımlarım</string>
+    <string name="etkinliklerim">etkinliklerim</string>
+    <string name="kullanici_feyza">feyza şen</string>
+    <string name="bildirimler">bildirimler</string>
+    <string name="harita">harita</string>
+    <string name="add_photo">fotoğraf ekle</string>
+    <string name="add_location">konum ekle</string>
+    <string name="comment_elsmoke">ne düşünüyorsun, elsmoke?</string>
+    <string name="new_post">YENİ GÖNDERİ</string>
 </resources>

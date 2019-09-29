@@ -13,12 +13,13 @@
         <activity android:name=".RegisterActivity"></activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".ProfilActivity" />
+
+        <activity android:name=".AddingActivity" />
         <activity android:name=".NotificationActivity"/>
 
-        <activity android:name=".MainPageActivity" />
+        <activity android:name=".MainActivity" />
 
-
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainPageActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
